@@ -40,7 +40,7 @@ div.ray2 {
 div.ray3 {
     transform: rotate(90deg) translate(58px,0px) ;
 }
-div.ray4 {
+div.ray4 ｛
     transform: rotate(135deg) translate(58px,0px) ;
 }
 div.ray5 {
@@ -83,15 +83,11 @@ div.ray8 {
     background-color: #E9565E;
     border: 8px solid #E3353F;
     border-bottom: none;
-    -moz-border-radius: 50% 50% 50% 50% / 100% 100% 0% 0%;
-    -webkit-border-radius: 50% 50% 50% 50% / 100% 100% 0% 0%;
     border-radius: 50% 50% 50% 50% / 100% 100% 0% 0%;
     z-index: -2;
 }
 .bottom_of_dress_1, .bottom_of_dress_2 {
     height: 2px;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
     border-radius: 50%;
     z-index: 6;
 }
@@ -121,15 +117,11 @@ div.ray8 {
 .left_of_dress {
     left: 13px;
     border-right: 3px solid #E9565E;
-    -ms-transform: rotate(9deg);
-    -webkit-transform: rotate(9deg);
     transform: rotate(9deg);
 }
 .right_of_dress {
     left: 199px;
     border-left: 3px solid #E9565E;
-    -ms-transform: rotate(-6deg);
-    -webkit-transform: rotate(-6deg);
     transform: rotate(-6deg);
 }
 .bottom_of_dress_3 {
@@ -138,8 +130,6 @@ div.ray8 {
     height: 6px;
     width: 199px;
     background-color: #E3353F;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
     border-radius: 5px;
     z-index: 5;
 }
@@ -154,8 +144,6 @@ div.ray8 {
     border-top-right-radius: 350px;
     border-bottom-right-radius: 235px;
     border-top-left-radius: 180px;
-    -ms-transform: rotate(18deg);
-    -webkit-transform: rotate(18deg);
     transform: rotate(18deg);
 }
 .bottom_of_face_1, .bottom_of_face_2 {
@@ -164,11 +152,7 @@ div.ray8 {
     height: 121px;
     width: 149px;
     background-color: #FFB0DF;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
     border-radius: 50%;
-    -ms-transform: rotate(180deg);
-    -webkit-transform: rotate(180deg);
     transform: rotate(180deg);
 }
 .bottom_of_face_1 {
@@ -182,8 +166,6 @@ div.ray8 {
 }
 .bottom_of_nose, .top_of_nose {
     background-color: #FFB0DF;
-    -moz-border-radius: 50% 50% 50% 50% / 100% 100% 0% 0%;
-    -webkit-border-radius: 50% 50% 50% 50% / 100% 100% 0% 0%;
     border-radius: 50% 50% 50% 50% / 100% 100% 0% 0%;
 }
 .bottom_of_nose {
@@ -193,8 +175,6 @@ div.ray8 {
     height: 76px;
     border-left: 7px solid #EB8DC2;
     border-top: 7px solid #EB8DC2;
-    -ms-transform: rotate(-70deg);
-    -webkit-transform: rotate(-70deg);
     transform: rotate(-70deg);
 }
 .top_of_nose {
@@ -204,8 +184,6 @@ div.ray8 {
     height: 105px;
     border-right: 7px solid #EB8DC2;
     border-top: 6px solid #EB8DC2;
-    -ms-transform: rotate(-73deg);
-    -webkit-transform: rotate(-73deg);
     transform: rotate(-73deg);
 }
 .eyes:before, .eyes:after {
@@ -213,8 +191,6 @@ div.ray8 {
     content: "";
     background-color: #FDFDFD;
     border: 5px solid #FDFDFD;
-    -moz-border-radius: 47%;
-    -webkit-border-radius: 47%;
     border-radius: 47%;
     z-index: 2;
 }
@@ -229,19 +205,13 @@ div.ray8 {
     left: 107px;
     width: 12px;
     height: 13px;
-    -ms-transform: rotate(-20deg);
-    -webkit-transform: rotate(-20deg);
     transform: rotate(-20deg);
 }
 .right_pupil, .left_pupil {
     height: 11px;
     width: 10px;
     background-color: #000;
-    -moz-border-radius: 47%;
-    -webkit-border-radius: 47%;
     border-radius: 47%;
-    -ms-transform: rotate(40deg);
-    -webkit-transform: rotate(40deg);
     transform: rotate(40deg);
     z-index: 3;
 }
@@ -260,11 +230,7 @@ div.ray8 {
     width: 42px;
     background-color: #FFB0DF;
     border: 7px solid #EB8DC2;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
     border-radius: 50%;
-    -ms-transform: rotate(29deg);
-    -webkit-transform: rotate(29deg);
     transform: rotate(29deg);
     z-index: 3;
 }
@@ -274,11 +240,7 @@ div.ray8 {
     width: 11px;
     height: 12px;
     background-color: #D667A9;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
     border-radius: 50%;
-    -ms-transform: rotate(-39deg);
-    -webkit-transform: rotate(-39deg);
     transform: rotate(-39deg);
 }
 .center_of_nose:before {
@@ -296,11 +258,7 @@ div.ray8 {
     height: 50px;
     background-color: #FF8CD1;
     border: 11px solid #FFB0DF;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
     border-radius: 50%;
-    -ms-transform: rotate(24deg);
-    -webkit-transform: rotate(24deg);
     transform: rotate(24deg);
     z-index: 3;
 }
@@ -308,15 +266,11 @@ div.ray8 {
     width: 35px;
     height: 35px;
     background-color: #EB8DC2;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
     border-radius: 50%;
 }
 .right_eye_socket {
     top: -98px;
     left: 100px;
-    -ms-transform: rotate(-35deg);
-    -webkit-transform: rotate(-35deg);
     transform: rotate(-35deg);
     z-index: 2;
 }
@@ -333,8 +287,6 @@ div.ray8 {
     height: 44px;
     background-color: #FFB0DF;
     border: 7px solid #EB8DC2;
-    -moz-border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
-    -webkit-border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
     border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
     z-index: -1;
 }
@@ -359,8 +311,6 @@ div.ray8 {
     top: -131px;
     left: 150px;
     width: 23px;
-    -ms-transform: rotate(210deg);
-    -webkit-transform: rotate(210deg);
     transform: rotate(210deg);
     animation:rightear 1s alternate infinite;
 }
@@ -377,60 +327,44 @@ div.ray8 {
     width: 7px;
     height: 10px;
     background-color: #EB8DC2;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
     border-radius: 50%;
     z-index: 2;
 }
 .bottom_left_of_right_ear {
     top: -98px;
     left: 146px;
-    -ms-transform: rotate(10deg);
-    -webkit-transform: rotate(10deg);
     transform: rotate(10deg);
 }
 .bottom_right_of_right_ear {
     top: -86px;
     left: 162px;
-    -ms-transform: rotate(25deg);
-    -webkit-transform: rotate(25deg);
     transform: rotate(25deg);
 }
 .bottom_left_of_left_ear {
     top: -114px;
     left: 110px;
-    -ms-transform: rotate(10deg);
-    -webkit-transform: rotate(10deg);
     transform: rotate(10deg);
 }
 .bottom_right_of_left_ear {
     top: -109px;
     left: 126px;
-    -ms-transform: rotate(25deg);
-    -webkit-transform: rotate(25deg);
     transform: rotate(25deg);
 }
 .vertical_line_near_nose, .horizontal_line_near_nose {
     top: -40px;
     width: 6px;
     background-color: #EB8DC2;
-    -moz-border-radius: 50px;
-    -webkit-border-radius: 50px;
     border-radius: 50px;
 }
 .vertical_line_near_nose {
     left: 42px;
     height: 10px;
-    -ms-transform: rotate(30deg);
-    -webkit-transform: rotate(30deg);
     transform: rotate(30deg);
     z-index: 4;
 }
 .horizontal_line_near_nose {
     left: 44px;
     height: 14px;
-    -ms-transform: rotate(100deg);
-    -webkit-transform: rotate(100deg);
     transform: rotate(100deg);
     z-index: 2;
 }
@@ -441,11 +375,7 @@ div.ray8 {
     height: 1px;
     background-color: #FFB0DF;
     border: 6px solid #FFB0DF;
-    -moz-border-radius: 50px;
-    -webkit-border-radius: 50px;
     border-radius: 50px;
-    -ms-transform: rotate(30deg);
-    -webkit-transform: rotate(30deg);
     transform: rotate(30deg);
     z-index: 2;
 }
@@ -456,17 +386,11 @@ div.ray8 {
     height: 40px;
     background-color: transparent;
     border-bottom: 4px solid #FFB0DF;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
     border-radius: 50%;
-    -ms-transform: rotate(-86deg);
-    -webkit-transform: rotate(-86deg);
     transform: rotate(-86deg);
     z-index: 6;
 }
 .left_of_mouth, .right_of_mouth, .left_of_mouth_2, .right_of_mouth_2, .bottom_of_mouth, .top_of_mouth {
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
     border-radius: 50%;
     z-index: 2;
 }
@@ -479,8 +403,6 @@ div.ray8 {
     border-bottom: 6px solid #D8468F;
     border-left: 4px solid transparent;
     border-right: 5px solid transparent;
-    -ms-transform: rotate(24deg);
-    -webkit-transform: rotate(24deg);
     transform: rotate(24deg);
 }
 .right_of_mouth {
@@ -492,8 +414,6 @@ div.ray8 {
     border-bottom: 2px solid transparent;
     border-right: 8px solid #D8468F;
     border-top: 4px solid transparent;
-    -ms-transform: rotate(92deg);
-    -webkit-transform: rotate(92deg);
     transform: rotate(92deg);
 }
 .left_of_mouth_2 {
@@ -502,8 +422,6 @@ div.ray8 {
     width: 6px;
     height: 14px;
     background-color: #D8468F;
-    -ms-transform: rotate(-15deg);
-    -webkit-transform: rotate(-15deg);
     transform: rotate(-15deg);
 }
 .right_of_mouth_2 {
@@ -512,8 +430,6 @@ div.ray8 {
     width: 7px;
     height: 9px;
     background-color: #D8468F;
-    -ms-transform: rotate(30deg);
-    -webkit-transform: rotate(30deg);
     transform: rotate(30deg);
 }
 .bottom_of_mouth {
@@ -525,8 +441,6 @@ div.ray8 {
     border-bottom: 2px solid transparent;
     border-right: 8px solid #D8468F;
     border-top: 4px solid transparent;
-    -ms-transform: rotate(88deg);
-    -webkit-transform: rotate(88deg);
     transform: rotate(88deg);
 }
 .top_of_mouth {
@@ -540,8 +454,6 @@ div.ray8 {
     top: 72px;
     height: 10px;
     background-color: #FDB6E0;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
     border-radius: 5px;
     border-bottom-right-radius: 50%;
     border-bottom-left-radius: 50%;
@@ -549,24 +461,18 @@ div.ray8 {
 .left_hand {
     left: -29px;
     width: 75px;
-    -ms-transform: rotate(156deg);
-    -webkit-transform: rotate(156deg);
     transform: rotate(156deg);
     z-index: -3;
 }
 .right_hand {
     left: 180px;
     width: 65px;
-    -ms-transform: rotate(204deg);
-    -webkit-transform: rotate(204deg);
     transform: rotate(204deg);
     z-index: 2;
 }
 .first_finger, .second_finger, .third_finger, .fourth_finger, .fifth_finger, .sixth_finger {
     height: 8px;
     background-color: #FDB6E0;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
     border-radius: 5px;
     z-index: 3;
 }
@@ -576,8 +482,6 @@ div.ray8 {
     width: 22px;
     border-top-left-radius: 50%;
     border-top-right-radius: 35%;
-    -ms-transform: rotate(16deg);
-    -webkit-transform: rotate(16deg);
     transform: rotate(16deg);
 }
 .third_finger {
@@ -585,8 +489,6 @@ div.ray8 {
     left: -17px;
     width: 18px;
     border-bottom-right-radius: 50%;
-    -ms-transform: rotate(105deg);
-    -webkit-transform: rotate(105deg);
     transform: rotate(105deg);
 }
 .second_finger {
@@ -594,8 +496,6 @@ div.ray8 {
     left: -27px;
     width: 18px;
     border-bottom-right-radius: 50%;
-    -ms-transform: rotate(145deg);
-    -webkit-transform: rotate(145deg);
     transform: rotate(145deg);
 }
 .fourth_finger {
@@ -604,8 +504,6 @@ div.ray8 {
     width: 22px;
     border-top-left-radius: 35%;
     border-top-right-radius: 50%;
-    -ms-transform: rotate(-18deg);
-    -webkit-transform: rotate(-18deg);
     transform: rotate(-18deg);
 }
 .sixth_finger {
@@ -613,8 +511,6 @@ div.ray8 {
     left: 224px;
     width: 18px;
     border-top-right-radius: 50%;
-    -ms-transform: rotate(75deg);
-    -webkit-transform: rotate(75deg);
     transform: rotate(75deg);
 }
 .fifth_finger {
@@ -623,16 +519,12 @@ div.ray8 {
     width: 18px;
     border-bottom-right-radius: 50%;
     border-bottom-left-radius: 50%;
-    -ms-transform: rotate(38deg);
-    -webkit-transform: rotate(38deg);
     transform: rotate(38deg);
 }
 .left_of_tail, .right_of_tail {
     width: 19px;
     background-color: transparent;
     border: 8px solid #FDB6E0;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
     border-radius: 50%;
     z-index: -3;
 }
@@ -641,8 +533,6 @@ div.ray8 {
     left: 194px;
     height: 30px;
     border-right: 7px solid transparent;
-    -ms-transform: rotate(-80deg);
-    -webkit-transform: rotate(-80deg);
     transform: rotate(-80deg);
 }
 .right_of_tail {
@@ -651,8 +541,6 @@ div.ray8 {
     height: 24px;
     border-left: 7px solid transparent;
     border-top: 9px solid transparent;
-    -ms-transform: rotate(80deg);
-    -webkit-transform: rotate(80deg);
     transform: rotate(80deg);
 }
 .top_of_tail {
@@ -663,8 +551,6 @@ div.ray8 {
     background-color: transparent;
     border: 6px solid transparent;
     border-top: 8px solid #FDB6E0;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
     border-radius: 50%;
     z-index: -3;
 }
@@ -674,11 +560,7 @@ div.ray8 {
     width: 10px;
     height: 8px;
     background-color: #FDB6E0;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
     border-radius: 50%;
-    -ms-transform: rotate(100deg);
-    -webkit-transform: rotate(100deg);
     transform: rotate(100deg);
     z-index: 2;
 }
@@ -687,8 +569,6 @@ div.ray8 {
     width: 10px;
     height: 40px;
     background-color: #FCB8E1;
-    -ms-transform: rotate(-1.5deg);
-    -webkit-transform: rotate(-1.5deg);
     transform: rotate(-1.5deg);
     z-index: -1;
 }
@@ -718,11 +598,7 @@ div.ray8 {
     width: 43px;
     height: 7px;
     border-bottom: 1px solid black;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
     border-radius: 5px;
-    -ms-transform: rotate(-1deg);
-    -webkit-transform: rotate(-1deg);
     transform: rotate(-1deg);
 }
 .top_of_foot {
@@ -730,11 +606,7 @@ div.ray8 {
     left: 11px;
     width: 40px;
     height: 5px;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
     border-radius: 5px;
-    -ms-transform: rotate(6deg);
-    -webkit-transform: rotate(6deg);
     transform: rotate(6.2deg);
 }
 .left_of_foot {
@@ -743,8 +615,6 @@ div.ray8 {
     width: 22px;
     height: 13px;
     border-bottom: 1px solid black;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
     border-radius: 50%;
 }
 .right_of_foot {
@@ -753,8 +623,6 @@ div.ray8 {
     width: 8px;
     height: 8px;
     border-bottom: 1px solid black;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
     border-radius: 50%;
 }
 .shadow {
@@ -763,8 +631,6 @@ div.ray8 {
     width: 205px;
     height: 31px;
     background-color: #589454;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
     border-radius: 50%;
     z-index: -3;
 }
@@ -777,8 +643,6 @@ div.ray8 {
     width: 100%;
     height: 27%;
     background-color: #77C76E;
-    -moz-border-radius: 50% 50% 50% 50% / 3% 9% 0% 0%;
-    -webkit-border-radius: 50% 50% 50% 50% / 3% 9% 0% 0%;
     border-radius: 50% 50% 50% 50% / 3% 9% 0% 0%;
     z-index: -4;
 }
@@ -801,45 +665,33 @@ div.ray8 {
     width: 6px;
     height: 10px;
     background-color: #FBED04;
-    -moz-border-radius: 35%;
-    -webkit-border-radius: 35%;
     border-radius: 35%;
     z-index: -3;
 }
 .top_right_yellow_petal {
     top: 11px;
     left: 25px;
-    -ms-transform: rotate(35deg);
-    -webkit-transform: rotate(35deg);
     transform: rotate(35deg);
 }
 .bottom_right_yellow_petal {
     top: 18px;
     left: 24px;
-    -ms-transform: rotate(125deg);
-    -webkit-transform: rotate(125deg);
     transform: rotate(125deg);
 }
 .bottom_left_yellow_petal {
     top: 18px;
     left: 19px;
-    -ms-transform: rotate(225deg);
-    -webkit-transform: rotate(225deg);
     transform: rotate(225deg);
 }
 .top_left_yellow_petal {
     top: 11px;
     left: 18px;
-    -ms-transform: rotate(315deg);
-    -webkit-transform: rotate(315deg);
     transform: rotate(315deg);
 }
 .stalk_of_yellow_flower, .stalk_of_white_flower {
     width: 6px;
     height: 22px;
     background-color: #56A14C;
-    -moz-border-radius: 6px;
-    -webkit-border-radius: 6px;
     border-radius: 6px;
     z-index: -3;
 }
@@ -871,8 +723,6 @@ div.ray8 {
     top: 12px;
     width: 6px;
     background-color: #64AC56;
-    -moz-border-radius: 6px;
-    -webkit-border-radius: 6px;
     border-radius: 6px;
     z-index: -3;
 }
@@ -883,15 +733,11 @@ div.ray8 {
 .center_blade_of_grass {
     left: 27px;
     height: 14px;
-    -ms-transform: rotate(5deg);
-    -webkit-transform: rotate(5deg);
     transform: rotate(5deg);
 }
 .right_blade_of_grass {
     left: 37px;
     height: 20px;
-    -ms-transform: rotate(10deg);
-    -webkit-transform: rotate(10deg);
     transform: rotate(10deg);
 }
 .left_white_flower, .right_white_flower, .center_white_flower {
@@ -914,37 +760,27 @@ div.ray8 {
     width: 6px;
     height: 8px;
     background-color: #FDFFFE;
-    -moz-border-radius: 35%;
-    -webkit-border-radius: 35%;
     border-radius: 35%;
     z-index: -2;
 }
 .top_right_white_petal {
     top: 9px;
     left: 33px;
-    -ms-transform: rotate(35deg);
-    -webkit-transform: rotate(35deg);
     transform: rotate(35deg);
 }
 .bottom_right_white_petal {
     top: 22px;
     left: 34px;
-    -ms-transform: rotate(125deg);
-    -webkit-transform: rotate(125deg);
     transform: rotate(125deg);
 }
 .bottom_left_white_petal {
     top: 22px;
     left: 21px;
-    -ms-transform: rotate(225deg);
-    -webkit-transform: rotate(225deg);
     transform: rotate(225deg);
 }
 .top_left_white_petal {
     top: 10px;
     left: 21px;
-    -ms-transform: rotate(315deg);
-    -webkit-transform: rotate(315deg);
     transform: rotate(315deg);
 }
 .center_of_white_flower {
@@ -953,8 +789,6 @@ div.ray8 {
     width: 13px;
     height: 13px;
     background-color: #FFED07;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
     border-radius: 50%;
     z-index: -3;
 }
