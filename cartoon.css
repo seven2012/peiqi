@@ -19,8 +19,8 @@ div.sun {
 }
 div.raybase {
     position: absolute;
-    top: 44px; /*50px/2-6px*/
-    left: 44px; /*(50px-12px)/2*/
+    top: 44px; /*100px/2-6px*/
+    left: 44px; /*(100px-12px)/2*/
 }
 div.ray {
     display: block;
@@ -32,7 +32,7 @@ div.ray {
     animation: shine 1s linear 0s infinite alternate;
 }
 div.ray1 {
-    transform: translate(58px,0px); /*(50px+6px)/2*/
+    transform: translate(58px,0px); /*(100px+6px)/2*/
 }
 div.ray2 {
     transform: rotate(45deg) translate(58px,0px) ;
